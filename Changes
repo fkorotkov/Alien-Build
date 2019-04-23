@@ -2,6 +2,9 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
   - Add clean_install hook (gh#111, gh#114)
+  - EXPERIMENTAL Add mm_install method to Alien::Build::MM (gh#111, gh#114)
+  - EXPERIMENTAL CAUTION Add alien_clean_install target to Makefile generated
+    by Alien::Build::MM (gh#111, gh#114)
 
 1.68      2019-04-23 04:57:49 -0400
   - Add decoder property to Download::Negotiate plugin (gh#115, gh#116)
