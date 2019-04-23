@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Add clean_install hook (gh#111, gh#114)
 
 1.68      2019-04-23 04:57:49 -0400
   - Add decoder property to Download::Negotiate plugin (gh#115, gh#116)
